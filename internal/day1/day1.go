@@ -20,7 +20,7 @@ var digitNames = map[string]string{
 }
 
 func Run() {
-	path := "1/input.txt"
+	path := "internal/day1/input.txt"
 	fmt.Println("Day 1: ", RunOnPath(path))
 }
 

@@ -17,7 +17,7 @@ type CubesSubset struct {
 type Game map[int][]CubesSubset
 
 func Run() {
-	path := "2/input.txt"
+	path := "internal/day2/input.txt"
 	cubes := CubesSubset{
 		Red:   12,
 		Green: 13,
